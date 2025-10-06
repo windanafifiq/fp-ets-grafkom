@@ -174,7 +174,6 @@ for (const pd of planetDefs) {
       })
     );
     ringMesh.rotation.x = -Math.PI / 2;
-    // 🔥 ring ikut parent (planetObj)
     parent.add(ringMesh);
     ringMesh.position.set(pd.dist, 0, 0);
   }
